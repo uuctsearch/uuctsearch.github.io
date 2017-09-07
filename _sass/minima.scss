@@ -1,5 +1,31 @@
 @charset "utf-8";
 
+// Chosen Colorscheme
+
+$color-red-main: #D35147;	// Main Primary color */
+$color-red-1: #FFAAA3;
+$color-red-2: #F57D73;
+$color-red-3: #B53126;
+$color-red-4: #8F160C;
+
+$color-yellow-main: #D3A747;	// Main Secondary color (1) */
+$color-yellow-1: #FFE2A3;
+$color-yellow-2: #F5CD73;
+$color-yellow-3: #B58926;
+$color-yellow-4: #8F670C;
+
+$color-blue-main: #3B4E8F;	// Main Secondary color (2) */
+$color-blue-1: #8795C6;
+$color-blue-2: #586AA6;
+$color-blue-3: #25397A;
+$color-blue-4: #132561;
+
+$color-green: #36A149;	// Main Complement color */
+$color-green-1: #88D596;
+$color-green-2: #58BB6A;
+$color-green-3: #1D8A30;
+$color-green-4: #0A6E1B;
+
 // Define defaults for each variable.
 
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
@@ -11,7 +37,7 @@ $base-line-height: 1.5 !default;
 $spacing-unit:     30px !default;
 
 $text-color:       #111 !default;
-$background-color: #d3a747 !default;
+$background-color: $color-yellow-2 !default;
 $brand-color:      #2a7ae2 !default;
 
 $grey-color:       #828282 !default;

@@ -4,3 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+
+### Home Page
+
+This is the homepage of the UUCT Search Committee

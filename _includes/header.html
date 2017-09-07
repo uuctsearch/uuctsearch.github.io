@@ -1,3 +1,32 @@
 <header class="site-header">
-    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-</header>
+  <nav class="navbar fixed-top navbar-toggleable-md navbar-light" style="background: orange;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+        </span>Discover ...</button>
+        <span class="navbar-brand">{{page.title}}</span>
+        <span class="navbar-text"> at Unitarian Universalist Church of Tucson</span>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="nav-content">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Who We Are</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">What We Do</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Why We Do It</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Set body height so that scrollbars grow -->
+        <style scoped>
+        body {
+          padding: 70px;
+          height:2000px;
+        }
+        </style>
+      </div>
+    </header>

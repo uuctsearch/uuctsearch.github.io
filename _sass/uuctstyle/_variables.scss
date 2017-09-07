@@ -228,8 +228,8 @@ $transition-collapse:    height .35s ease;
 // Fonts
 //
 // Font, line-height, and color for body text, headings, and more.
-
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family: 'Noto Sans', sans-serif;
+$font-family-sans-serif: 'Noto Sans', sans-serif;
 $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $font-family-base:       $font-family-sans-serif;
 
